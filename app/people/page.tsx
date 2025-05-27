@@ -17,7 +17,7 @@ export const metadata = {
 export default function Page() {
   return (
     <section className="prose">
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">People</h1>
+      {/* <h1 className="font-semibold text-2xl mb-8 tracking-tighter">People</h1> */}
       {people.map((person) => (
         <Card key={person.name} name={person.name} image={person.image} title={person.title} transform={person.transform} />
       ))}
@@ -30,7 +30,7 @@ function Card({ name, image, title, transform }: { name: string; image: string; 
   return (
     <div className="flex flex-col items-center">
       {/* Use fixed sized frame, resize image within it */}
-      <div className="w-48 h-48 mb-4 overflow-hidden rounded-md border-2 border-gray-300">
+      <div className="w-80 h-80 mb-4 overflow-hidden rounded-md border-2 border-gray-300">
         <img src={image} alt={name}
           style={{
             transform: transform
