@@ -6,7 +6,9 @@ import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
-import { baseUrl } from './sitemap'
+import { error } from 'console'
+
+const baseUrl = (process.env.SITE_URL || error('SITE_URL environment variable is not set'))!;
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),

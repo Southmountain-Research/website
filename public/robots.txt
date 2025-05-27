@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://smtn-research.com/
+
+# Sitemaps
+Sitemap: https://smtn-research.com/sitemap.xml
