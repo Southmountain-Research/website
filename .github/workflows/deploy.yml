@@ -24,6 +24,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+environment:
+  SITE_URL: "https://smtn-research.com/"
+
 jobs:
   # Build job
   build:
