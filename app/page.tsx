@@ -8,6 +8,10 @@ export default function Page() {
         Southmountain Research, LLC is a contracting business headed by <a href="https://justg.us">Gus Henry Smith</a>.
         We research, develop, and provide expertise on EDA tools and hardware compilers.
       </p>
+
+      <p>
+        Contact us at <a href="mailto:gus@smtn-research.com">gus@smtn-research.com</a>.
+      </p>
     </section>
   )
 }
