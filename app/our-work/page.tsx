@@ -14,14 +14,14 @@ export default function Page() {
         </p>
       </section>
       <section>
-        <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Churchroad</h1>
+        <h1 className="">Churchroad</h1>
         <a href="https://github.com/gussmith23/churchroad">GitHub link</a>
         <p>
           Churchroad is an open-source technology mapper for FPGAs.
         </p>
       </section>
       <section>
-        <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Lakeroad</h1>
+        <h1 className="">Lakeroad</h1>
         <a href="https://github.com/gussmith23/lakeroad">GitHub link</a>
         <p>
           Lakeroad is an open-source technology mapper for FPGAs, specially designed
